@@ -1,0 +1,45 @@
+﻿l_english:
+ #tyw_events.45  (directly, tyw_events.7)
+ tyw_events.7.a.tt:0 "[Root.Heir.GetName] will increase [Root.Heir.GetHerHis] administrative skills.\n\n+§G2§! £adm  ruler skill after regency is over."
+ tyw_events.7.b.tt:0 "[Root.Heir.GetName] will increase [Root.Heir.GetHerHis] diplomatic skills.\n\n+§G2§! £dip  ruler skill after regency is over."
+ tyw_events.7.c.tt:0 "[Root.Heir.GetName] will increase [Root.Heir.GetHerHis] military skills.\n\n+§G2§! £mil  ruler skill after regency is over."
+ #tyw_events.26
+ tyw_events.26.a.tt:0 "[Root.Heir.GetName] will be raised as a soldier of God, versed in military matters, but harsh on heretics.\n\n+§G1§! £mil  ruler skill, §G+2§! Tolerance of True Faith, §R-2§! Tolerance of Heretics after regency is over."
+ #
+ #hindu
+ #
+ #shiva
+ hindu_events.2.a:0 "I must think on this. +1 £adm  ruler skill after 5 years."
+ hindu_events.4.a:0 "I shall pray and reflect on this. +2 £adm  ruler skill after 5 years."
+ hindu_events.6.a:0 "I shall take these thoughts with me in my actions. +2 £mil  ruler skill after 5 years."
+ hindu_events.8.a:0 "I will try to comprehend the meaning of it. +1 £dip  ruler skill after 5 years."
+ hindu_events.10.a:0 "I shall contemplate how I was granted this knowledge. +1 £mil  ruler skill after 5 years."
+ #shakta
+ hindu_events.13.a:0 "This realization warrants further thinking. +2 £dip  ruler skill after 5 years."
+ hindu_events.14.a:0 "I shall seek to understand Devi through it. +2 £dip  ruler skill after 5 years."
+ hindu_events.16.a:0 "Marriage is truly the heart of the divine. +1 Diplomatic Relations after 2 years."
+ hindu_events.16.b:0 "Shakti creates unity because the world is of her essence. -2 National Unrest after 2 years."
+ hindu_events.19.a:0 "There is beauty even in the heart of destruction. +2 £mil  ruler skill after 5 years."
+ hindu_events.21.a:0 "We will call down destruction on the forces of evil. -15% Unjustified Demands after 2 years."
+ hindu_events.21.b:0 "Aum. +5% Morale of Armies after 2 years."
+ #vishnu
+ hindu_events.24.a:0 "Lakshmi shall unite my soul with Vishnu. +2 £dip  ruler skill after 5 years."
+ hindu_events.24.b:0 "I will contemplate this unity. +2 £adm  or +1£mil   ruler skill after 5 years."
+ hindu_events.27.a:0 "You speak the truth. I accept your gift of knowledge. +2 £adm  ruler skill after 5 years."
+ hindu_events.27.b:0 "I will learn from the wise, but not only from you. +1 £adm  ruler skill after 5 years."
+ hindu_events.30.a:0 "This is because Rudra is first among Vishnu's disciples. +2 £dip  ruler skill after 5 years."
+ hindu_events.30.b:0 "I must contemplate Shiva too. +2 £dip  or +1 £adm  or +1 £mil  ruler skill after 5 years."
+ hindu_events.33.a:0 "I will devote my life to purity and Vishnu! +2 £dip  and +2 £adm ruler skill after 8 years."
+ hindu_events.33.b:0 "I will take your advice for a time. +1 £dip  and +1 £adm ruler skill after 5 years."
+ #IT'S GANESH TIME (ganesha)
+ hindu_events.36.a:0 "I must dedicate time to understanding this. +2 £dip  ruler skill after 5 years."
+ hindu_events.38.a.tt:0 "The festival will be prepared and celebrated publicly in a month. \n\nGain §G+1§! Stability in a month."
+ #ganga
+ hindu_events.40.a:0 "I better make preparations. +2 £adm  ruler for next ruler, if they follow Ganga."
+ hindu_events.41.a:0 "I shall undertake a pilgrimage. +2 £adm  ruler skill after 1 year."
+ hindu_events.42.a:0 "This is a good time to seek out the goddess. +2 £adm  ruler skill after 1 month."
+ #surya
+ hindu_events.44.a:0 "Now, if ever, Lord Surya needs me. +2 £adm  ruler skill after 5 years."
+ hindu_events.46.a.tt:0 "The festival will be prepared and celebrated publicly in a month. \n\nGain §G+1§! Stability in a month."
+ 
+ 
