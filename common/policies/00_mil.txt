@@ -1236,7 +1236,7 @@ wielders_of_the_flaming_sword_policy = {
 	}
 
 	land_morale = 0.1
-	morale_damage_received = -0.01
+	morale_damage_received = -0.1
 	
 	effect = {}
 	removed_effect = {}
