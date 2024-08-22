@@ -3,6 +3,7 @@ tags={
 	"Balance"
 }
 name="Pdx Empire Mod"
+picture="thumbnail.png"
 replace_path="common/defines"
 replace_path="common/great_projects"
 replace_path="common/ideas"
