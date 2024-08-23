@@ -21,16 +21,6 @@ aristocracy_ideas = {
 	}
 
 	trigger = {
-		AND { 
-			has_government_attribute = enables_aristocratic_idea_group
-			NOT = {
-				OR = {
-					has_idea_group = theocracy_gov_ideas
-					has_idea_group = plutocracy_ideas
-					has_idea_group = horde_gov_ideas
-				}
-			}
-		}
 		has_government_attribute = enables_aristocratic_idea_group
 	}
 	
@@ -39,7 +29,7 @@ aristocracy_ideas = {
 	}
 	serfdom = {
 		global_manpower_modifier = 0.20
-		development_cost = -0.05
+		development_cost = -0.10
 	}
 	noble_resilience = {
 		cav_to_inf_ratio = 0.1
@@ -107,25 +97,17 @@ plutocracy_ideas = {
 		burghers_loyalty_modifier = 0.1
 		vaisyas_loyalty_modifier = 0.1
 	}
-	trigger = { 
-		NOT = {
-			OR = {
-				has_idea_group = theocracy_gov_ideas
-				has_idea_group = aristocracy_ideas
-				has_idea_group = horde_gov_ideas
-			}
-		}
-	}
+
 	tradition_of_payment = {
-		global_regiment_cost = -0.05
+		global_regiment_cost = -0.10
 		free_mil_policy = 1
 	}
 	abolished_serfdom = {
-		land_morale = 0.1
-		monarch_lifespan = 0.25
+		land_morale = 0.15
+		monarch_lifespan = 0.20
 	}
 	bill_of_rights = {
-		monthly_reform_progress = 0.03
+		monthly_reform_progress = 0.05
 	}
 	free_merchants = {
 		interest = -0.50
@@ -135,11 +117,11 @@ plutocracy_ideas = {
 		republican_tradition = 0.25
 	}
 	free_cities = {
-		caravan_power = 0.15
+		caravan_power = 0.25
 		development_cost = -0.05
 	}
 	emancipation = {
-		manpower_recovery_speed = 0.15
+		manpower_recovery_speed = 0.2
 	}
 
 	ai_will_do = {
@@ -176,16 +158,7 @@ horde_gov_ideas = {
 	}
 	
 	trigger = {
-		AND { 
-			has_government_attribute = enables_horde_idea_group
-			NOT = {
-				OR = {
-					has_idea_group = aristocracy_ideas
-					has_idea_group = plutocracy_ideas
-					has_idea_group = theocracy_gov_ideas
-				}
-			}
-		}
+		has_government_attribute = enables_horde_idea_group
 	}
 	
 	horse_lords = {
@@ -232,18 +205,9 @@ theocracy_gov_ideas = {
 	}
 	
 	trigger = {
-		AND { 
-			OR = {
-				has_government_attribute = enables_divine_idea_group
-				has_idea_group = religious_ideas
-			}
-			NOT = {
-				OR = {
-					has_idea_group = horde_gov_ideas
-					has_idea_group = aristocracy_ideas
-					has_idea_group = plutocracy_ideas
-				}
-			}
+		OR = {
+		has_government_attribute = enables_divine_idea_group
+		has_idea_group = religious_ideas
 		}
 	}
 	servants_of_god = {
