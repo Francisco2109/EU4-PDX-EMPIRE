@@ -741,12 +741,12 @@ defensive_ideas = {
 		regiment_manpower_usage = -0.10
 	}
 	defensive_mentality = {
-		defensiveness = 0.33
+		defensiveness = 0.15
 		fort_maintenance_modifier = -0.10
 	}
 	supply_trains = {
 		reinforce_speed = 0.3
-		garrison_damage = 0.5
+		garrison_damage = 0.25
 	}
 	improved_foraging = {
 		garrison_size = 0.20

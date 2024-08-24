@@ -18887,7 +18887,7 @@ kazan_kremlin = {
 		country_modifiers = {
 			great_project_upgrade_time = -0.1
 			global_autonomy = -0.025
-			garrison_damage = 0.5
+			garrison_damage = 0.25
 		}
 		on_upgraded = {
 		}
@@ -18911,7 +18911,7 @@ kazan_kremlin = {
 		country_modifiers = {
 			great_project_upgrade_time = -0.2
 			global_autonomy = -0.025
-			garrison_damage = 1
+			garrison_damage = 0.5
 		}	
 		on_upgraded = {
 		}
@@ -18935,7 +18935,7 @@ kazan_kremlin = {
 		country_modifiers = {
 			great_project_upgrade_time = -0.25
 			global_autonomy = -0.05
-			garrison_damage = 1
+			garrison_damage = 0.75
 		}	
 		on_upgraded = {
 		}
