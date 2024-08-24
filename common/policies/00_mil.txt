@@ -251,7 +251,7 @@ modern_siege_weapons = {
 		full_idea_group = offensive_ideas
 	}
 	
-	siege_ability = 0.1
+	siege_ability = 0.20
 	leader_siege = 1
 
 	effect = {}
@@ -478,7 +478,7 @@ underhanded_diplomacy_act = {
 	}
 	
 	spy_offence = 0.33
-	diplomatic_reputation = 1
+	siege_ability = 0.15
 
 	effect = {}
 	removed_effect = {}
@@ -796,7 +796,7 @@ local_militias = {
 	}	
 	
 	war_exhaustion = -0.03
-	garrison_damage = 0.5
+	regiment_manpower_usage = -0.05
 	
 	effect = {}
 	removed_effect = {}
@@ -819,7 +819,7 @@ foreign_conscription_centers = {
 	}	
 	
 	reinforce_cost_modifier = -0.25
-	diplomatic_upkeep = 1
+	leader_land_fire = 1
 	
 	effect = {}
 	removed_effect = {}
@@ -1235,7 +1235,7 @@ wielders_of_the_flaming_sword_policy = {
 		full_idea_group = religious_ideas
 	}
 
-	land_morale = 0.1
+	land_morale = 0.05
 	morale_damage_received = -0.1
 	
 	effect = {}
@@ -1505,7 +1505,7 @@ bolstered_defence_act = {
 	
 	max_hostile_attrition = 1
 	hostile_attrition = 1 
-	garrison_size = 0.25
+	garrison_size = 0.15
 
 	effect = {}
 	removed_effect = {}
@@ -1619,7 +1619,7 @@ universal_serfdom_act = {
 		full_idea_group = aristocracy_ideas 
 	}
 	
-	nobles_loyalty_modifier = 0.1
+	leader_siege = 1
 	global_manpower_modifier = 0.15
 
 	effect = {}
@@ -1689,7 +1689,7 @@ sturdy_argument_act = {
 	}
 	
 	garrison_size = 0.10
-	morale_damage_received = -0.1
+	fire_damage_received = -0.10
 	
 
 	effect = {}
@@ -1713,7 +1713,7 @@ special_forces_act = {
 	}
 	
 	special_unit_forcelimit = 0.1
-	yearly_army_professionalism = 0.002
+	yearly_army_professionalism = 0.005
 
 	effect = {}
 	removed_effect = {}

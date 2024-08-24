@@ -521,7 +521,7 @@ spy_ideas = {
 
 	efficient_spies = {
 		spy_offence = 0.5
-		siege_ability = 0.1
+		siege_ability = 0.20
 	}	
 	
 	agent_training = {
@@ -531,7 +531,7 @@ spy_ideas = {
 
 	vetting = {
 		global_spy_defence = 0.33
-		yearly_corruption = -0.2
+		movement_speed = 0.10
 	}
 	
 	privateers = {
