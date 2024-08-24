@@ -125,7 +125,7 @@ plutocracy_ideas = {
 		monarch_lifespan = 0.25
 	}
 	bill_of_rights = {
-		monthly_reform_progress = 0.03
+		monthly_reform_progress = 0.1
 	}
 	free_merchants = {
 		interest = -0.50
