@@ -22,7 +22,7 @@ emperor_reichsregiment = {
 		has_dlc = "Emperor"
 	}
 	province = {
-		local_autonomy = 0.05
+		local_autonomy = -0.05
 	}
 	emperor = {
 		diplomatic_reputation = 1
@@ -231,6 +231,9 @@ emperor_reichskrieg = {
 
 	potential = {
 		has_dlc = "Emperor"
+	}
+	elector = {
+		land_forcelimit_modifier = 0.15
 	}
 	on_effect = {
 		enable_imperial_realm_war = yes
